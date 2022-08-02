@@ -1,0 +1,60 @@
+html {
+  background-color: rgb(245, 245, 245);
+}
+body {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: black;
+  width: 80%;
+}
+div {        
+  background-color: black;
+  color: white;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+h1 {
+  color: black;
+  font-size: 300%;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+form {
+  color: black;
+  font-size: 150%;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+select {
+  color: black;
+  font-size: 90%;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  background-color: white;
+}
+input {
+  color: black;
+  font-size: 80%;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  background-color: rgb(117, 166, 245);
+}
+textarea {
+  font-size: 100%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+  overflow: auto;
+}

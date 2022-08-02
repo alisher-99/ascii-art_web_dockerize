@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="ui/styles/style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <meta charset="UTF-8">
+        <title>{{ .Title}}</title>
+    </head>
+   
+    <body>
+        <br></br>
+        <img src="ui/images/IMG_0944.jpg" alt="image">
+        <h1>{{ .Title}}</h1>
+        <form method="POST" action="ascii-art">
+        <p for="pet-select">Choose a banner:</p>
+        <select name="styles" id="style-select">
+            {{ .StylesList}}
+        </select>
+        <br></br>
+            <label>Type text:</label><br>
+            <textarea id="input-textarea" name="inputText"></textarea><br><br>
+            <label>Click button:</label><br>
+            <input type="submit" value="Go" /><br></br>
+        </form>
+        <div>
+            {{ .Banner}}
+          </div>    
+          <br></br>      
+    </body>
+</html>
