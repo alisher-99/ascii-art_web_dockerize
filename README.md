@@ -1,6 +1,6 @@
 ASCII-ART-WEB project
 
-Authors: Taimas and alisher-99
+Authors: alisher-99
 
 How to run:
 
