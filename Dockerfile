@@ -1,5 +1,5 @@
 FROM golang:1.17
-LABEL maintainer="Taimas"
+LABEL maintainer="alisher-99"
 
 ENV APPNAME="ascii-server"
 
