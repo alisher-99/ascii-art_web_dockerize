@@ -1,6 +1,6 @@
 ASCII-ART-WEB project
 
-Authors: alisher-99
+Author: alisher-99
 
 How to run:
 
